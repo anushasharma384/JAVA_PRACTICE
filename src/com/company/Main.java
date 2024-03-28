@@ -7,6 +7,17 @@ public class Main {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.println("Hello World!");
+
+        //Add three numbers
+        System.out.print("Sum of these numbers is: ");
+        int a = 9;
+        int b = 8;
+        int c = 7;
+        int sum = a+b+c;
+        System.out.print(sum);
+
+        //
+
     }
 }
 
