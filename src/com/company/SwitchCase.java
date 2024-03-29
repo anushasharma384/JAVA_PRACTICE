@@ -8,6 +8,7 @@ public class SwitchCase {
         switch (age){
             case 18:
                 System.out.println("You are going to be an adult.");
+                //if you don't use break it will print all the cases as it is used to come out of the switch once a case is operated
                 break;
             case 23:
                 System.out.println("You are going to get a job.");
