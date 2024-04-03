@@ -26,6 +26,5 @@ public class CallingMethodsUsingObjects {
         int p = obj.logic(x-4, y+6);
         System.out.println(z);
         System.out.println(p);
-
     }
 }
