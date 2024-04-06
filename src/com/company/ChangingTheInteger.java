@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class ChangingTheInteger {
     static void change(int x){
         x = 98;
