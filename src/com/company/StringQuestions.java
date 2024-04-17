@@ -17,8 +17,5 @@ public class StringQuestions {
         System.out.println(str.indexOf("  "));
         System.out.println(str.indexOf("   "));
 
-
-        //problem3
-        //
     }
 }
