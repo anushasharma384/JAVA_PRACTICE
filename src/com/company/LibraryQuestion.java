@@ -1,6 +1,6 @@
 package com.company;
 
-// Implement a library using the java class library
+// Implement a library using the java classes
 // Methods: addBook, issueBook, retBook, showAvailableBooks
 // Properties: Array to store the issues books, Array to store the available books.
 
