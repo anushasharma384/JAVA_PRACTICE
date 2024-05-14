@@ -4,6 +4,8 @@ package com.company;
 //In java, interface is a group of related methods with empty bodies.
 //To form interface we have to use the keyword 'interface' instead of 'class'.
 //Whenever we use interface methods we have to make them public.
+//Interface is a bit like class but with significant differences
+//We can create a reference of interfaces but not objects
 
 
 interface bicycle{
