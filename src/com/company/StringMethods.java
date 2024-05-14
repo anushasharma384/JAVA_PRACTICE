@@ -1,5 +1,7 @@
 package com.company;
-
+//In java string is a class but due to special support in java we can use string as data type.
+//Strings are immutable and can not be changed.
+// In memory, we can not change that object but we can make a copy of that string object and can change it there.
 public class StringMethods {
     public static void main(String[] args) {
         String name = "Anusha";
