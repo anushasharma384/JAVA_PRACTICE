@@ -1,11 +1,9 @@
 package com.company;
-//An interface have two types of methods: static and default.
-//Default methods enable us to add new functionalities to existing methods.
-//This feature ensures backward compatibility while updating an interface.
-//Classes implementing interfaces need not implement default methods.
-//Interfaces can also use private methods for default methods.
-//If we make private methods we can't use them directly in main program but we can call them through any other or default methods and then can use them.
-interface MyCamera{
+//When a class have multiple functionalities, but we want the user to use only some specific functionalities and hide others from the user.
+//e.g. A smartphone has a feature camera, GPS, cell phone, media player, etc. but we want user to use the smartphone as camera only, so we will hide the other functionalities from the user till it's using camera.
+// Camera c = new SmartPhone();
+
+interface MyCamera2{
     void takeSnap();
     void recordVideo();
     private void greet(){
@@ -18,11 +16,11 @@ interface MyCamera{
     }
 }
 
-interface Wifi{
+interface Wifi2{
     String[] getNetworks();
     void connectToNetwork(String network);
 }
-class MyCellPhone{
+class MyCellPhone2{
     void callNumber(int Number){
         System.out.println("Calling Number "+ Number);
     }
@@ -30,7 +28,7 @@ class MyCellPhone{
         System.out.println("Picking Call...");
     }
 }
-class MySmartPhone extends MyCellPhone implements MyCamera, Wifi{
+class MySmartPhone2 extends MyCellPhone2 implements MyCamera2, Wifi2{
     public void takeSnap(){
         System.out.println("Taking Snap...");
     }
@@ -57,15 +55,11 @@ class MySmartPhone extends MyCellPhone implements MyCamera, Wifi{
         System.out.println("Connecting to "+ network);
     }
 }
-public class DefaultMethods {
+public class Polymorphism {
     public static void main(String[] args) {
-        MySmartPhone as = new MySmartPhone();
-        as.record4KVideo();
-        //Can't use it here as it is a private method
-        //as.greet();
-        String[] ac = as.getNetworks();
-        for (String item : ac){
-            System.out.println(item);
-        }
+        MyCamera2 cam = new MySmartPhone2(); //This is a smartphone but please use it as camera only.
+        Wifi2 w = new MySmartPhone2(); //This is a smartphone but please use it only for wifi.
+        //cam.getNetwork(); --> Not allowed as you can only use camera and get networks is a method of wifi.
+        cam.record4KVideo();
     }
 }

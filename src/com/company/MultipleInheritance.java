@@ -6,6 +6,5 @@ package com.company;
 //Java does not support multiple inheritance but support similar concepts such as interfaces.
 public class MultipleInheritance {
     public static void main(String[] args) {
-
     }
 }
