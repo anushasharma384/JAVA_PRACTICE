@@ -22,7 +22,7 @@ class MyThreadRunnable2 implements Runnable{
     }
 }
 
-public class RunnableClasses {
+public class RunnableInterfaces {
     public static void main(String[] args) {
         // in runnable class we can't use objects t1 and t2 instead we have to make threads to implement these classes.
         MyThreadRunnable1 bullet1 = new MyThreadRunnable1();
