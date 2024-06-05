@@ -1,4 +1,5 @@
 package com.company;
+//Creating threads using extending thread class.
 //Concurrency is the task of running and managing multiple computations at the same time.
 //Parallelism is the task of running and managing multiple computations simultaneously.
 class MyThread extends Thread{
