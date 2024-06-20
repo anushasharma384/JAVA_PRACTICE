@@ -18,7 +18,6 @@ public class Hashset {
         hs.add(89);
         hs.add(90);
         hs.add(9);
-        //other methods are same like arraylist and linkedlist
-
+        //other methods are same like arraylist and linked list
     }
 }
