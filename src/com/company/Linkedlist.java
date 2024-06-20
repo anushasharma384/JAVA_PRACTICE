@@ -14,7 +14,7 @@ class Node{
 }
 public class Linkedlist {
     public static void main(String[] args) {
-        Linkedlist l = new Linkedlist();
+        LinkedList<Integer> ll = new LinkedList<>();
 
     }
 }
