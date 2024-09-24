@@ -1,4 +1,4 @@
-# JAVA_PRACTICE
+
 # Java Development Project
 
 ## Objective
@@ -60,9 +60,4 @@ This project covers a variety of Java programming concepts across numerous class
 - **Java Development Kit (JDK) 11** or later.
 - An IDE such as **IntelliJ IDEA, Eclipse, or VSCode**, or a text editor.
 
-### Setup Steps
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/java-dev-project.git
-   cd java-dev-project
+####Happy Coding.....
